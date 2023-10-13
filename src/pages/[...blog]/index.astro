@@ -11,14 +11,14 @@ import { findImage } from '~/utils/images';
 
 export const prerender = true;
 
-export async function getStaticPaths () {
+export async function getStaticPaths() {
   return await getStaticPathsBlogPost();
 }
 
 const { post } = Astro.props;
 
 const url = getCanonical(getPermalink(post.permalink, 'post'));
-const image = (await findImage(post.image)) as ImageMetadata | undefined;
+const image = (await findImage(post.cover)) as ImageMetadata | undefined;
 
 const metadata = merge(
   {
