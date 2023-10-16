@@ -8,7 +8,20 @@ export const headerData = {
     },
     {
       text: 'Blog',
-      href: getBlogPermalink(),
+      links: [
+        {
+          text: 'Tous les articles',
+          href: getBlogPermalink(),
+        },
+        // {
+        //   text: 'Documentation',
+        //   href: getPermalink('documentation', 'category'),
+        // },
+        // {
+        //   text: 'Evenement',
+        //   href: getPermalink('evenement', 'category'),
+        // },
+      ],
     },
   ],
 };

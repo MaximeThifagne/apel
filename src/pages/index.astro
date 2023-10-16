@@ -7,7 +7,6 @@ import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import Stats from '~/components/widgets/Stats.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
 import feteecole from '~/assets/images/feteecole.jpg';
 import feteecole2 from '~/assets/images/feteecole2.jpg';
 
@@ -21,7 +20,7 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero>
-    <Fragment slot="title">Bienvenue sur le site de l'APEL Saint Jospeh</Fragment>
+    <Fragment slot="title">Bienvenue sur le site de l'APEL Saint Joseph</Fragment>
 
     <Fragment slot="image">
       <div class="relative h-0 pb-[56.25%]">
@@ -53,7 +52,7 @@ const metadata = {
     stats={[
       { title: 'Adhérents à la rentrée 2022', amount: '991K' },
       { title: 'Apel en france ', amount: '5000 ' },
-      { title: 'D’enfants scolarisés', amount: '2 Million' },
+      { title: 'D’enfants scolarisés', amount: '2M' },
       { title: 'Parents bénévoles', amount: '+15K' },
     ]}
   >
@@ -103,7 +102,7 @@ const metadata = {
 
   <Content
     isReversed
-    tagline="Quelques exemples d'événements"
+    tagline="Quelques exemples d'évènements"
     items={[
       {
         title: "Spéctacles des éléves de l'école",
@@ -124,7 +123,7 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <h5 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Fête de l'école 2023</h5>
+      <h1 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Fête de l'école 2023</h1>
        Organiser par l'APEL le 24 Juin 2023 dans la cours de l'école il à permis au parents de partager un moment
       convivial avec les enfants. De nombreuses activités était propser :
     </Fragment>
@@ -167,7 +166,7 @@ const metadata = {
     stats={[
       { title: 'Evenements', amount: '13' },
       { title: 'Tablier vendus', amount: '188' },
-      { title: 'Reversés pour le voyage scolaire des CM1 CM2', amount: '1 720€' },
+      { title: 'Reversés pour le voyage scolaire des CM1/CM2', amount: '1 720€' },
       { title: 'Récoltés', amount: '3 680€' },
     ]}
   />
@@ -244,7 +243,7 @@ const metadata = {
   <BlogLatestPosts
     title="Trouver plus d'informations sur le blog"
     information={`Le blog est utilisé pour afficher toutes les informations.
-                        Tout les futures evenements, les dates, les demandes d'aide pour le mise en place et la tenu de stand seront disponible ici
+                        Tout les futures évènements, les dates, les demandes d'aide pour le mise en place et la tenu de stand seront disponible ici.
                 `}
   />
 

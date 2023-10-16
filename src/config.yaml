@@ -1,6 +1,6 @@
 site:
   name: Saint Joseph
-  site: 'https://astrowind.vercel.app'
+  site: 'https://apel-saint-joseph.netlify.app/'
   base: '/'
   trailingSlash: false
 
@@ -10,7 +10,7 @@ site:
 metadata:
   title:
     default: Saint Joseph
-    template: '%s — AstroWind'
+    template: '%s — APEL Saint Joseph'
   description: "Site internet de l'APEL de l'école Saint Joseph de Chambéry"
   robots:
     index: true
