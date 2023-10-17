@@ -17,10 +17,10 @@ export const headerData = {
         //   text: 'Documentation',
         //   href: getPermalink('documentation', 'category'),
         // },
-        // {
-        //   text: 'Evenement',
-        //   href: getPermalink('evenement', 'category'),
-        // },
+        {
+          text: 'Evènements',
+          href: getPermalink('evenement', 'category'),
+        },
       ],
     },
   ],
