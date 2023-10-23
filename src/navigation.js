@@ -21,6 +21,10 @@ export const headerData = {
           text: 'Evènements',
           href: getPermalink('evenement', 'category'),
         },
+        {
+          text: 'Coup de pouce',
+          href: getPermalink('coup-de-pouce', 'category'),
+        },
       ],
     },
   ],
